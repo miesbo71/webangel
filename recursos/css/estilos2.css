@@ -1,0 +1,43 @@
+@media screen and (max-width: 1920px) and (min-width: 100px) {
+    
+
+    /*Fondo de la cabecera del menú*/
+    header {
+        background: rgba(0,0,0,0.7);
+        width: 80%;
+        position: fixed;
+        z-index: 100;*/
+    }
+      
+    nav {
+        float: left;
+    }
+      
+    nav ul {
+        list-style: none;
+        overflow: hidden; 
+    }
+      
+    nav ul li {
+        float: left;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+    }
+
+    nav ul li a {
+        display: block;
+        padding: 10px;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    /*Color de los enlaces cuando estamos encima*/
+    nav ul li:hover {
+        background: #08b4e9;
+    }
+
+    footer {
+        height: 4rem;
+        background-color: #04fa19
+    }
+}

@@ -1,0 +1,53 @@
+@media screen and (max-width: 1920px) and (min-width: 100px) {
+    
+    /*Para centrar todo el contenido del body*/
+    body {
+        margin: 0 0 1rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    /*Fondo de la cabecera del menú*/
+    header {
+        background: rgba(0,0,0,0.7);
+        width: 80%;
+        position: fixed;
+        z-index: 100;
+    }
+      
+    nav {
+        float: left;
+    }
+      
+    nav ul {
+        list-style: none;
+        overflow: hidden; 
+    }
+      
+    nav ul li {
+        float: left;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+    }
+
+    nav ul li a {
+        display: block;
+        padding: 10px;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    /*Color de los enlaces cuando estamos encima*/
+    nav ul li:hover {
+        background: #08b4e9;
+    }
+
+    /*Para que el div no se ponga encima del header*/
+    .principal {
+        margin-top: 70px;
+        width: 80%;
+        position: fixed;
+        background: #c0469b;
+    }
+
+}
